@@ -1,0 +1,28 @@
+#
+#
+#
+
+newmtl saturn
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 2.000000
+map_Kd customScene/textures/saturn.png
+
+newmtl saturn-rings
+illum 2
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 60.000000
+map_Kd customScene/textures/saturn_rings_radial.png
+
+newmtl nasa
+Ns 10.0000
+illum 2
+Ka 0.0200 0.0200 0.0200
+Kd 1.0000 1.0000 1.0000
+Ks 0.0000 0.0000 0.0000
+Ke 0.0000 0.0000 0.0000
+map_Kd customScene/textures/nasa.png

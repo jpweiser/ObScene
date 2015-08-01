@@ -1,0 +1,32 @@
+obj customScene/objFiles/Voyager_17.obj
+s .1 .1 .1
+t 1 1 0
+rx 180 ry 90
+
+obj customScene/objFiles/skyball.obj
+rx 90 rz 90
+s 800 800 800
+
+obj customScene/objFiles/saturn.obj
+rx 90 rz 90
+t -1 -1 0
+
+obj customScene/objFiles/saturn-ring.obj
+rx 90 rz 100 ry 9
+t -1 -1 0
+
+obj customScene/objFiles/nasa.obj
+s 8 8 8
+rx 90
+t -5 -5 -3
+
+
+
+light spot ambient 1. 1. 1. color 1. 1. 1. position 0. 10. 0.0 constAtt 0.002 linearAtt 0.002 quadAtt .002 coneDirection -2.0 -10.0 -12.0 spotCosCutoff .99  spotExponent 60.
+
+light directional ambient .1 .1 .1 color .9 .9 .9 position 0. 1. 0.
+
+light local ambient .2 .2 0. color 1. 1. 1. position 40. 40. -0. constAtt 0.02 linearAtt 0.02 quadAtt .0002
+
+
+view  camera .75 2.4 1.25 focal 0. 0. 0.  viewup 0. 0. 1.
