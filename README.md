@@ -8,9 +8,8 @@ triangular. The files are parsed based on instructions from a control file,
 which must be specified at the terminal when executing the program. For .mtl
 files associated with some .obj files, it is assumed by the program that both
 files are in the same directory. Correct relative filepaths to control files
-must be provided, and similarly with .obj files. This program should be
-accompanied by two directories, controlFiles and objFiles, which are ready for
-demonstration purposes.
+must be provided, and similarly with .obj files. An example of this structure
+should accompany the program.
 
 --------------------------------------------------------------------------------
 ================================================================================
@@ -20,11 +19,16 @@ Use the included Makefile. At the terminal:
 
     $ make
 
+Special instructions for Mac users:
+
+To make sure the correct libraries are linked, use the following:
+
+    $ make mac
 --------------------------------------------------------------------------------
 ================================================================================
 Running the Program:
 
-./viewer option [filename]
+./obscene option [filename]
      OPTIONS
      -u,                print this information and exit
      -c filename,       specify control file
