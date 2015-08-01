@@ -1,4 +1,3 @@
-// assignment 2
 #include "readcontrol.h"
 
 
