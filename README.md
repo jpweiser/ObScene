@@ -3,8 +3,8 @@ Render WaveFront OBJ files using classic lighting model
 
 Overview:
 
-This program renders simple .obj files, wherein all geometry is assumed
-triangular. The files are parsed based on instructions from a control file,
+This program renders simple triangulated .obj files into a scene.
+The files are parsed based on instructions from a control file,
 which must be specified at the terminal when executing the program. For .mtl
 files associated with some .obj files, it is assumed by the program that both
 files are in the same directory. Correct relative filepaths to control files
