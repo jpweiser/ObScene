@@ -51,25 +51,34 @@ Controlling the Program:
 
 
 ESC or q:...........exit program
+
 r:..................reset view to default values
+
 w:..................render objects as wireframe
+
 s:..................render objects as solid
 
 ← (left arrow):.....1 degree clockwise rotation around the eye position
                     and focal point around the z axis
+
 → (right arrow):....1 degree counter-clockwise rotation around the eye position
                     and focal point around the z axis
+
 ↑ (up arrow):.......Move camera forward along gaze vector
+
 ↓(down arrow):......Move camera back along gaze vector
 
 c:..................move the camera down along view up vector
+
 v:..................move camera up along view up vector
 
 d:..................move the focal point in opposite direction of view up vector
+
 f:..................move focal point in direction of view up vector
 
 z:..................rotate view up vector by 1 degree counter-clockwize around
                     gaze vector
+
 x:..................rotate view up vector by 1 degree clockwise around gaze
                     vector
 
